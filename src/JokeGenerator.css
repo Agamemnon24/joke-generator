@@ -1,0 +1,48 @@
+    body {
+        margin: 0;
+    }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('https://www.ineedmorespace.co.uk/wp-content/uploads/2014/05/Blur-Wallpaper.jpg'); 
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .joke-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .joke-setup {
+    font-size: 24px;
+    margin: 10px;
+  }
+  
+  .joke-delivery {
+    font-size: 20px;
+    margin: 10px;
+  }
+  
+  .generate-button {
+    background-color: #959595;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .generate-button:hover {
+    background-color: #616161;
+    transition: 0.6s;
+  }
+  
